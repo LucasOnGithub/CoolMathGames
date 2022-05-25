@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* -------------------------------------------------- */
+/* Made by Icy, Owner of Zaluea Network
+/* MIT license: http://opensource.org/licenses/MIT
+/* "Example Proxy" CSS
+/* -------------------------------------------------- */
+
+* {
+    font-family: 'Roboto';
+}
+body {
+    background-color: rgb(26, 26, 26);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    margin-top: 30vh;
+    font-size: 90px;
+}
+
+form input {
+    margin-top: 1vh;
+    background: none;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 15px;
+    color: white;
+    width: 400px;
+    height: 40px;
+    padding: 0px 15px;
+}
+
+.msg {
+    color: rgb(175, 175, 175);
+    margin-top: 1vh;
+}
+.info {
+    margin-top: 0;
+}
+.credits {
+    margin-top: 0;
+    color: rgb(175, 175, 175);
+    font-size: medium;
+}
+a {
+    color: white;
+    text-decoration: none;
+    margin: 0;
+}
+a:hover {
+    text-decoration: underline;
+}

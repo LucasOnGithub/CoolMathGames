@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "bare-server-node": "github:tomphttp/bare-server-node",
+    "http": "^0.0.1-security",
+    "node-static": "^0.7.11"
+  }
+}
